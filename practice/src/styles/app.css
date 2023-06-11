@@ -4,9 +4,24 @@
   box-sizing: border-box;
 }
 
+html {
+  background-color: rgb(247, 247, 247);
+}
+
 #root {
   display: flex;
   justify-content: center;
+}
+
+button {
+  cursor: pointer;
+  background-color: #fff;
+  padding: 5px;
+  border: 1px solid salmon;
+}
+
+button:hover {
+  background-color: salmon;
 }
 
 .App {
@@ -20,8 +35,16 @@
   border: 2px solid salmon;
   align-items: center;
   margin-top: 20px;
+  background-color: #fff;
+  border-radius: 10px;
 }
 
 .post__title {
-    text-align: center;
+  text-align: center;
+}
+
+.post__content {
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
 }

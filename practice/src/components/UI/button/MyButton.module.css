@@ -1,0 +1,11 @@
+.myBtn {
+  cursor: pointer;
+  background-color: #fff;
+  padding: 5px;
+  border: 1px solid salmon;
+  border-radius: 5px;
+}
+
+.myBtn:hover {
+  background-color: salmon;
+}
