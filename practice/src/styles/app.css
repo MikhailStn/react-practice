@@ -26,6 +26,7 @@ button:hover {
 
 .App {
   width: 800px;
+  padding-top: 50px;
 }
 
 .post {
@@ -47,4 +48,19 @@ button:hover {
   display: flex;
   flex-direction: column;
   row-gap: 10px;
+}
+
+.app__subtitle {
+  text-align: center;
+}
+
+.app__separator {
+  margin: 15px 0;
+}
+
+.select {
+  margin-top: 20px;
+  border-radius: 5px;
+  border: 1px solid salmon;
+  padding: 5px;
 }
